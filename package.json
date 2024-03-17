@@ -1,0 +1,21 @@
+{
+  "name": "@regen-design/icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "generate": "npx ts-node generate.ts"
+  },
+  "keywords": [
+    "icons",
+    "regen-design"
+  ],
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
